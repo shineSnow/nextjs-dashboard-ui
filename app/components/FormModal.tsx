@@ -79,7 +79,7 @@ const FormModal = ({ table, type, data, id }: FormModalProps) => {
           >
             <Form />
             <div
-              className="absolute top-4 ring-4 cursor-pointer"
+              className="absolute top-4  cursor-pointer"
               onClick={() => setOpen(false)}
             >
               <Image src="/close.png" alt="" width={14} height={14} />
